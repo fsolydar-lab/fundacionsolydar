@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -45,8 +45,8 @@
     <!-- ===== SECCIÓN DE NAVEGACIÓN ===== --><header class="bg-white shadow-md sticky top-0 left-0 w-full z-50">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <!-- Logo --><a href="#" class="flex-shrink-0 flex items-center">
-                    <!-- Se utiliza el logo de Solydar --><img src="LOGOSOLYDAR.png" alt="Logo de Solydar" class="h-14 w-auto"> 
+                <!-- Logo (AHORA ES TEXTO) --><a href="#" class="flex-shrink-0 flex items-center">
+                    <span class="text-3xl font-extrabold text-solydar-purple-main">Solydar</span>
                 </a>
                 
                 <!-- Navegación de Escritorio --><div class="hidden md:flex items-center space-x-8">
@@ -59,7 +59,7 @@
                 </div>
                 
                 <!-- Botón CTA (Llamado a la Acción) de Escritorio --><div class="hidden md:block">
-                    <a href="#formularios" class="inline-block bg-solydar-orange text-white font-bold py-2 px-5 rounded-full hover:bg-solydar-orange-600 transition duration-300">
+                    <a href="#formularios" class="inline-block bg-solydar-orange text-white font-bold py-2 px-5 rounded-full hover:bg-solydar-purple-main transition duration-300">
                         Donar/Recibir
                     </a>
                 </div>
@@ -85,41 +85,36 @@
                 <a href="#condiciones" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Condiciones</a>
                 <a href="#formularios" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Formularios</a>
                 <a href="#contacto" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Contacto</a>
-                <a href="#formularios" class="block w-3/4 mx-auto mt-4 bg-solydar-orange text-white font-bold py-2 px-5 rounded-full hover:bg-solydar-orange-600 transition duration-300">
+                <a href="#formularios" class="block w-3/4 mx-auto mt-4 bg-solydar-orange text-white font-bold py-2 px-5 rounded-full hover:bg-solydar-purple-main transition duration-300">
                     Donar/Recibir
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- ===== SECCIÓN HERO (INICIO) ===== --><main>
+    <!-- ===== SECCIÓN HERO (INICIO) - MODIFICADA para ser 1 columna ===== --><main>
         <section id="inicio" class="bg-gray-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                    <!-- Contenido de Texto --><div>
-                        <span class="inline-block bg-solydar-purple-light text-white font-semibold px-4 py-1 rounded-full text-sm">
-                            Infancia y Medio Ambiente
-                        </span>
-                        <h1 class="mt-4 text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight">
-                            Una segunda oportunidad para la ropa.
-                            <span class="block text-solydar-purple-main">Un futuro verde para la infancia.</span>
-                        </h1>
-                        <p class="mt-6 text-lg text-gray-600">
-                            En Solydar creamos un ciclo de solidaridad: recolectamos donaciones para la primera infancia y, junto a las familias beneficiadas, cuidamos nuestro planeta.
-                        </p>
-                        <div class="mt-10 flex flex-wrap gap-4">
-                            <a href="#formularios" class="inline-block bg-solydar-olive text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-solydar-olive-darker transition duration-300">
-                                Quiero Donar
-                            </a>
-                            <a href="#modelo" class="inline-block bg-gray-200 text-gray-800 font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-300 transition duration-300">
-                                Conocer Más
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Imagen (ACTUALIZADA con la imagen del bebé y artículos) --><div class="hidden md:block">
-                        <img src="Captura de pantalla 2025-11-07 125013.png" 
-                             alt="Bebé rodeado de ropa y accesorios de primera infancia, representando las donaciones de Solydar." 
-                             class="rounded-xl shadow-2xl object-cover w-full h-full max-h-[500px]">
+                <!-- Se elimina la columna de la imagen y se centra el texto -->
+                <div class="max-w-3xl mx-auto text-center">
+                    <!-- Contenido de Texto -->
+                    <span class="inline-block bg-solydar-purple-light text-white font-semibold px-4 py-1 rounded-full text-sm">
+                        Infancia y Medio Ambiente
+                    </span>
+                    <h1 class="mt-4 text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight">
+                        Una segunda oportunidad para la ropa.
+                        <span class="block text-solydar-purple-main">Un futuro verde para la infancia.</span>
+                    </h1>
+                    <p class="mt-6 text-lg text-gray-600">
+                        En Solydar creamos un ciclo de solidaridad: recolectamos donaciones para la primera infancia y, junto a las familias beneficiadas, cuidamos nuestro planeta.
+                    </p>
+                    <div class="mt-10 flex flex-wrap gap-4 justify-center">
+                        <a href="#formularios" class="inline-block bg-solydar-olive text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-solydar-purple-main transition duration-300">
+                            Quiero Donar
+                        </a>
+                        <a href="#modelo" class="inline-block bg-gray-200 text-gray-800 font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-300 transition duration-300">
+                            Conocer Más
+                        </a>
                     </div>
                 </div>
             </div>
@@ -403,8 +398,8 @@
     <!-- ===== SECCIÓN FOOTER (PIE DE PÁGINA) ===== --><footer id="contacto" class="bg-solydar-purple-dark text-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
-                <!-- Col 1: Logo y Redes --><div class="md:col-span-1">
-                    <!-- Se utiliza el logo de Solydar --><img src="LOGOSOLYDAR.png" alt="Logo de Solydar" class="h-14 w-auto mb-4">
+                <!-- Col 1: Logo y Redes (AHORA ES TEXTO) --><div class="md:col-span-1">
+                    <span class="text-2xl font-bold text-white mb-4 block">Solydar</span>
                     <p class="mt-4 text-sm">
                         Cambiando vidas, un niño y un árbol a la vez.
                     </p>
