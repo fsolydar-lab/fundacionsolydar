@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -45,8 +45,8 @@
     <!-- ===== SECCIÓN DE NAVEGACIÓN ===== --><header class="bg-white shadow-md sticky top-0 left-0 w-full z-50">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <!-- Logo (AHORA ES TEXTO) --><a href="#" class="flex-shrink-0 flex items-center">
-                    <span class="text-3xl font-extrabold text-solydar-purple-main">Solydar</span>
+                <!-- Logo ACTUALIZADO: Se usa la imagen logo_mini.png --><a href="#" class="flex-shrink-0 flex items-center">
+                    <img src="logo_mini.png" alt="Logo de Fundación Solydar" class="h-12 w-auto">
                 </a>
                 
                 <!-- Navegación de Escritorio --><div class="hidden md:flex items-center space-x-8">
@@ -92,10 +92,9 @@
         </div>
     </header>
 
-    <!-- ===== SECCIÓN HERO (INICIO) - MODIFICADA para ser 1 columna ===== --><main>
+    <!-- ===== SECCIÓN HERO (INICIO) ===== --><main>
         <section id="inicio" class="bg-gray-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
-                <!-- Se elimina la columna de la imagen y se centra el texto -->
                 <div class="max-w-3xl mx-auto text-center">
                     <!-- Contenido de Texto -->
                     <span class="inline-block bg-solydar-purple-light text-white font-semibold px-4 py-1 rounded-full text-sm">
@@ -120,15 +119,37 @@
             </div>
         </section>
 
-        <!-- ===== SECCIÓN MISIÓN (QUIÉNES SOMOS) ===== --><section id="mision" class="py-20 md:py-32 bg-white">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <span class="font-semibold text-solydar-purple-main uppercase">Nuestra Misión</span>
-                <h2 class="mt-2 text-3xl md:text-4xl font-extrabold text-gray-900">
-                    Creemos en un mundo solidario
-                </h2>
-                <p class="mt-6 text-lg text-gray-600 max-w-3xl mx-auto">
-                    Solydar nace de la convicción de que podemos brindar apoyo vital a la primera infancia en situación de vulnerabilidad, al mismo tiempo que fomentamos una cultura de responsabilidad ambiental. No solo damos, creamos comunidad y conciencia.
-                </p>
+        <!-- ===== SECCIÓN MISIÓN (QUIÉNES SOMOS) - CON IMAGEN 'donando.png' ===== --><section id="mision" class="py-20 md:py-32 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <!-- Columna de Imagen --><div class="md:order-2">
+                        <img src="donando.png" alt="Una persona adulta y un niño pequeño interactuando, representando la donación y el impacto en la infancia." class="rounded-2xl shadow-xl w-full h-auto object-cover transform hover:scale-[1.01] transition duration-500">
+                    </div>
+
+                    <!-- Columna de Texto --><div class="md:order-1">
+                        <span class="font-semibold text-solydar-purple-main uppercase">Nuestra Misión</span>
+                        <h2 class="mt-2 text-3xl md:text-4xl font-extrabold text-gray-900">
+                            Creemos en un mundo solidario
+                        </h2>
+                        <p class="mt-6 text-lg text-gray-600">
+                            Solydar nace de la convicción de que podemos brindar apoyo vital a la primera infancia en situación de vulnerabilidad, al mismo tiempo que fomentamos una cultura de responsabilidad ambiental. No solo damos, creamos comunidad y conciencia.
+                        </p>
+                        <ul class="mt-6 space-y-3 text-gray-600">
+                            <li class="flex items-center">
+                                <span class="text-solydar-olive font-bold text-xl mr-2">&#10003;</span>
+                                Apoyo a la primera infancia (0-5 años).
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-solydar-olive font-bold text-xl mr-2">&#10003;</span>
+                                Fomento de la conciencia ambiental.
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-solydar-olive font-bold text-xl mr-2">&#10003;</span>
+                                Promoción de la economía circular.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -183,58 +204,54 @@
             </div>
         </section>
 
-        <!-- ===== SECCIÓN CONDICIONES DE ARTÍCULOS ===== --><section id="condiciones" class="py-20 md:py-32 bg-white">
+        <!-- ===== SECCIÓN CONDICIONES DE ARTÍCULOS - CON IMAGEN 'donaciones.jpg' ===== --><section id="condiciones" class="py-20 md:py-32 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16">
-                    <span class="font-semibold text-solydar-purple-main uppercase">Donaciones Inteligentes</span>
-                    <h2 class="mt-2 text-3xl md:text-4xl font-extrabold text-gray-900">
-                        Qué Artículos Recibimos
-                    </h2>
-                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-                        Ayúdanos a asegurar que lo que donas es lo que la primera infancia realmente necesita.
-                    </p>
-                </div>
                 
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                    <!-- Artículos: ROPA --><div class="group bg-gray-50 p-6 rounded-xl shadow-md border-t-4 border-solydar-purple-main hover:bg-solydar-purple-light hover:text-white transition duration-300 transform hover:scale-[1.02]">
-                        <div class="flex justify-center mb-4">
-                            <!-- Icono de Ropa --><svg class="h-10 w-10 text-solydar-purple-main group-hover:text-white transition duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3a2.5 2.5 0 0 1 2.5 2.5v2.5H16a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h1.5V5.5A2.5 2.5 0 0 1 12 3m0 2.5c-.28 0-.5.22-.5.5v2.5h1V6c0-.28-.22-.5-.5-.5Zm1 5H11v8h2v-8Z"/></svg>
-                        </div>
-                        <h3 class="text-lg font-bold text-center mb-2">ROPA</h3>
-                        <p class="text-sm text-gray-600 group-hover:text-gray-100 text-center">
-                            Ropa y pijamas de **recién nacido hasta 5T**, en perfecto estado y limpias.
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <!-- Columna de Texto y Títulos (Orden 2 en móvil, Orden 1 en escritorio) --><div class="md:order-1">
+                        <span class="font-semibold text-solydar-purple-main uppercase">Donaciones Inteligentes</span>
+                        <h2 class="mt-2 text-3xl md:text-4xl font-extrabold text-gray-900">
+                            Qué Artículos Recibimos
+                        </h2>
+                        <p class="mt-4 text-lg text-gray-600 max-w-2xl">
+                            Ayúdanos a asegurar que lo que donas es lo que la primera infancia realmente necesita.
                         </p>
+
+                        <!-- Lista de Artículos --><div class="grid grid-cols-2 gap-6 mt-8">
+                            <!-- Artículos: ROPA --><div class="group border-b-2 border-solydar-purple-main pb-2">
+                                <h3 class="text-xl font-bold text-gray-900">ROPA</h3>
+                                <p class="text-sm text-gray-600">
+                                    Ropa y pijamas de **recién nacido hasta 5T**, en perfecto estado.
+                                </p>
+                            </div>
+
+                            <!-- Artículos: JUGUETES --><div class="group border-b-2 border-solydar-olive pb-2">
+                                <h3 class="text-xl font-bold text-gray-900">JUGUETES</h3>
+                                <p class="text-sm text-gray-600">
+                                    Apropiados para niños hasta los **5 años**. No deben estar rotos.
+                                </p>
+                            </div>
+                            
+                            <!-- Artículos: EQUIPOS --><div class="group border-b-2 border-solydar-orange pb-2">
+                                <h3 class="text-xl font-bold text-gray-900">EQUIPOS</h3>
+                                <p class="text-sm text-gray-600">
+                                    Coches, mecedoras, sillas para comer, cambiadores, etc.
+                                </p>
+                            </div>
+
+                            <!-- Artículos: ACCESORIOS --><div class="group border-b-2 border-solydar-purple-dark pb-2">
+                                <h3 class="text-xl font-bold text-gray-900">ACCESORIOS</h3>
+                                <p class="text-sm text-gray-600">
+                                    Suministros de alimentación, ropa de cama, artículos de seguridad.
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Artículos: JUGUETES --><div class="group bg-gray-50 p-6 rounded-xl shadow-md border-t-4 border-solydar-olive hover:bg-solydar-olive hover:text-white transition duration-300 transform hover:scale-[1.02]">
-                        <div class="flex justify-center mb-4">
-                            <!-- Icono de Juguete --><svg class="h-10 w-10 text-solydar-olive group-hover:text-white transition duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16ZM12 7c-1.38 0-2.5 1.12-2.5 2.5S10.62 12 12 12s2.5-1.12 2.5-2.5S13.38 7 12 7Zm0 3.5c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1Zm-5.5 1.5A.5.5 0 0 1 7 13v.5a.5.5 0 0 1-1 0V13a.5.5 0 0 1 .5-.5ZM17 12.5a.5.5 0 0 1 .5-.5h.5a.5.5 0 0 1 0 1h-.5a.5.5 0 0 1-.5-.5Z"/></svg>
-                        </div>
-                        <h3 class="text-lg font-bold text-center mb-2">JUGUETES</h3>
-                        <p class="text-sm text-gray-600 group-hover:text-gray-100 text-center">
-                            Apropiados para niños hasta los **5 años**. No deben estar rotos ni descompuestos.
-                        </p>
-                    </div>
-                    
-                    <!-- Artículos: EQUIPOS --><div class="group bg-gray-50 p-6 rounded-xl shadow-md border-t-4 border-solydar-orange hover:bg-solydar-orange hover:text-white transition duration-300 transform hover:scale-[1.02]">
-                        <div class="flex justify-center mb-4">
-                            <!-- Icono de Equipo/Coche --><svg class="h-10 w-10 text-solydar-orange group-hover:text-white transition duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18 10h-2V7h-3v3H9V7H6v3H4c-.55 0-1 .45-1 1v1.5c0 .35.18.66.45.85L5 15h11c.28 0 .54-.12.73-.32.19-.2.27-.47.27-.78V11c0-.55-.45-1-1-1ZM5 12.5V12h11v.5c0 .28-.22.5-.5.5H5.5c-.28 0-.5-.22-.5-.5ZM17 18c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2Zm-12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2Z"/></svg>
-                        </div>
-                        <h3 class="text-lg font-bold text-center mb-2">EQUIPOS</h3>
-                        <p class="text-sm text-gray-600 group-hover:text-gray-100 text-center">
-                            Coches, mecedoras, colechos, sillas para comer, cobijas, maletas, pañaleras, cambiadores.
-                        </p>
+                    <!-- Columna de Imagen (Orden 1 en móvil, Orden 2 en escritorio) --><div class="md:order-2">
+                        <img src="donaciones.jpg" alt="Un conjunto de artículos donados como ropa de bebé, juguetes y accesorios apilados cuidadosamente." class="rounded-2xl shadow-xl w-full h-auto object-cover transform hover:scale-[1.01] transition duration-500">
                     </div>
 
-                    <!-- Artículos: ACCESORIOS --><div class="group bg-gray-50 p-6 rounded-xl shadow-md border-t-4 border-solydar-purple-dark hover:bg-solydar-purple-dark hover:text-white transition duration-300 transform hover:scale-[1.02]">
-                        <div class="flex justify-center mb-4">
-                            <!-- Icono de Biberón/Accesorio --><svg class="h-10 w-10 text-solydar-purple-dark group-hover:text-white transition duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a4 4 0 0 1 4 4v2.5H8V6a4 4 0 0 1 4-4m-1 7h2v11a1 1 0 0 1-1 1 1 1 0 0 1-1-1V9Z"/></svg>
-                        </div>
-                        <h3 class="text-lg font-bold text-center mb-2">ACCESORIOS</h3>
-                        <p class="text-sm text-gray-600 group-hover:text-gray-100 text-center">
-                            Suministros de alimentación, ropa de cama (sábanas), artículos de seguridad y más.
-                        </p>
-                    </div>
                 </div>
             </div>
         </section>
@@ -398,8 +415,8 @@
     <!-- ===== SECCIÓN FOOTER (PIE DE PÁGINA) ===== --><footer id="contacto" class="bg-solydar-purple-dark text-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
-                <!-- Col 1: Logo y Redes (AHORA ES TEXTO) --><div class="md:col-span-1">
-                    <span class="text-2xl font-bold text-white mb-4 block">Solydar</span>
+                <!-- Col 1: Logo y Redes --><div class="md:col-span-1">
+                    <!-- Logo --><img src="logo_mini.png" alt="Logo de Fundación Solydar" class="h-12 w-auto mb-4">
                     <p class="mt-4 text-sm">
                         Cambiando vidas, un niño y un árbol a la vez.
                     </p>
@@ -451,7 +468,7 @@
     </footer>
 
 
-    <!-- ===== SCRIPT DE JAVASCRIPT Y FIREBASE ===== --><script type="module">
+    <!-- ===== SCRIPT DE JAVASCRIPT Y FIREBASE (Se mantiene sin cambios) ===== --><script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
         import { getAuth, signInAnonymously, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
         import { getFirestore, collection, addDoc, doc, setLogLevel } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
