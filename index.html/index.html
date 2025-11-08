@@ -278,14 +278,14 @@
 
                     <!-- Contenedor del Formulario de DONANTE -->
                     <div id="donor-form-container">
-                        <!-- ¡IMPORTANTE! Hemos reemplazado "TU_CLAVE_UNICA_AQUI" con la clave única obtenida de tu correo de FormSubmit -->
-                        <form id="donor-form" class="space-y-6" action="https://formsubmit.co/1b60c5178bec0d0456a7e8a884adf83b" method="POST">
+                        <!-- CORRECCIÓN CLAVE: Se apunta directamente al email CORREGIDO: fsolydar@gmail.com -->
+                        <form id="donor-form" class="space-y-6" action="https://formsubmit.co/fsolydar@gmail.com" method="POST">
                             <p class="text-gray-600 text-sm">Usa este formulario para ofrecernos artículos. ¡Gracias por tu generosidad! Recibirás una copia de tu envío por correo.</p>
                             
                             <!-- Campo oculto para personalizar el asunto del email -->
                             <input type="hidden" name="_subject" value="NUEVA OFERTA DE DONACIÓN - Solydar">
-                            <!-- Campo oculto para redirigir al usuario después del envío exitoso (lo redirigimos al mismo formulario) -->
-                            <input type="hidden" name="_next" value="#formularios">
+                            <!-- CAMBIO CLAVE AQUÍ: Redirección a la URL base de tu sitio web -->
+                            <input type="hidden" name="_next" value="https://fsolydar-lab.github.io/"> 
                             <!-- Campo oculto para habilitar la copia automática al remitente (el donante) -->
                             <input type="hidden" name="_cc" value="1">
                             
@@ -327,14 +327,14 @@
 
                     <!-- Contenedor del Formulario de RECEPTOR (Oculto por defecto) -->
                     <div id="recipient-form-container" class="hidden">
-                         <!-- ¡IMPORTANTE! Hemos reemplazado "TU_CLAVE_UNICA_AQUI" con la clave única obtenida de tu correo de FormSubmit -->
-                        <form id="recipient-form" class="space-y-6" action="https://formsubmit.co/1b60c5178bec0d0456a7e8a884adf83b" method="POST">
+                         <!-- CORRECCIÓN CLAVE: Se apunta directamente al email CORREGIDO: fsolydar@gmail.com -->
+                         <form id="recipient-form" class="space-y-6" action="https://formsubmit.co/fsolydar@gmail.com" method="POST">
                             <p class="text-gray-600 text-sm">Usa este formulario si necesitas recibir donaciones para tus hijos o beneficiarios. Recibirás una copia de tu solicitud por correo.</p>
                             
                             <!-- Campo oculto para personalizar el asunto del email -->
                             <input type="hidden" name="_subject" value="NUEVA SOLICITUD DE AYUDA - Solydar">
-                            <!-- Campo oculto para redirigir al usuario después del envío exitoso (lo redirigimos al mismo formulario) -->
-                            <input type="hidden" name="_next" value="#formularios">
+                            <!-- CAMBIO CLAVE AQUÍ: Redirección a la URL base de tu sitio web -->
+                            <input type="hidden" name="_next" value="https://fsolydar-lab.github.io/">
                             <!-- Campo oculto para habilitar la copia automática al remitente (el solicitante) -->
                             <input type="hidden" name="_cc" value="1">
 
