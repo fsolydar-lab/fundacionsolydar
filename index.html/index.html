@@ -278,8 +278,8 @@
 
                     <!-- Contenedor del Formulario de DONANTE -->
                     <div id="donor-form-container">
-                        <!-- La acción del formulario se dirige a FormSubmit para enviar el email -->
-                        <form id="donor-form" class="space-y-6" action="https://formsubmit.co/fsolydar@gmail.com" method="POST">
+                        <!-- ¡IMPORTANTE! Hemos reemplazado "TU_CLAVE_UNICA_AQUI" con la clave única obtenida de tu correo de FormSubmit -->
+                        <form id="donor-form" class="space-y-6" action="https://formsubmit.co/1b60c5178bec0d0456a7e8a884adf83b" method="POST">
                             <p class="text-gray-600 text-sm">Usa este formulario para ofrecernos artículos. ¡Gracias por tu generosidad! Recibirás una copia de tu envío por correo.</p>
                             
                             <!-- Campo oculto para personalizar el asunto del email -->
@@ -327,8 +327,8 @@
 
                     <!-- Contenedor del Formulario de RECEPTOR (Oculto por defecto) -->
                     <div id="recipient-form-container" class="hidden">
-                         <!-- La acción del formulario se dirige a FormSubmit para enviar el email -->
-                        <form id="recipient-form" class="space-y-6" action="https://formsubmit.co/fsolydar@gmail.com" method="POST">
+                         <!-- ¡IMPORTANTE! Hemos reemplazado "TU_CLAVE_UNICA_AQUI" con la clave única obtenida de tu correo de FormSubmit -->
+                        <form id="recipient-form" class="space-y-6" action="https://formsubmit.co/1b60c5178bec0d0456a7e8a884adf83b" method="POST">
                             <p class="text-gray-600 text-sm">Usa este formulario si necesitas recibir donaciones para tus hijos o beneficiarios. Recibirás una copia de tu solicitud por correo.</p>
                             
                             <!-- Campo oculto para personalizar el asunto del email -->
@@ -539,10 +539,6 @@
                 closeIcon.classList.add('hidden');
             });
         });
-        
-        // --- LIMPIEZA DE CÓDIGO INNECESARIO (Firebase, Admin Panel) ---
-        // Se elimina toda la lógica de Firebase y del Panel de Administración,
-        // ya que la nueva funcionalidad de envío de emails directo no la requiere.
     </script>
 </body>
 </html>
